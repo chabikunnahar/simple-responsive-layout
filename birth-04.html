@@ -3,88 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
+    <title>My Birthday Month</title>
     <style>
-        h2{
+        body{
+            margin: 0 auto;
+        }
+        h1{
+            margin-left: 50px;
+            font-size:;
+            font-weight:;
+        }
+        h5{
             text-align: center;
-            text-decoration: underline;
+            font-size: 32px;
         }
         .calendar{
             display: grid;
-            
-            grid-template-columns:repeat(7,1fr);
-             /* grid-template-rows: 40px repeat(5,50px) ; */
-            row-gap:30px;
-             /* column-gap: 10px; */
-
+            grid-template-columns:repeat(7 , 1fr) ;
+            row-gap: 20px;
+            column-gap: 20px;
+            margin-left: 50px;
+            margin-right:50px;
+            height: 600px;
+            padding: 30px;
+            padding-right: 0px;
+            background-image: url(img/birthbg.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
         }
-        .date ,.day{
-            background-color:skyblue;
-            height:50px;
-            width: 50px;
-            border-radius:5px;
-            display: flex;
-              align-items: center;
+        .date , .day{
+            background-color:lightseagreen ;
+            display:flex;
             justify-content: center;
-                 font-size: 1.5rem;
+            align-items: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
         }
         .day{
-            background-color:black ;
-            color: aliceblue;
-            font-size: 1rem;
+            background-color: lightgray;
         }
-        .govt{
-            background-color: red;
+        .off{
+            background-color:whitesmoke;
+            color: red;
         }
+        .birth  
+        {
+           background-color:blueviolet; 
+           color: white;
+        }
+        small{
+            text-align:right;
+            margin-bottom: 0;
+            /* margin-right: 50px; */
+        }
+
     </style>
 </head>
 <body>
-    <h2>My Personal Calendar</h2>
-    <div class="calendar">
-        <div class="day">S</div>
-        <div class="day">M</div>
-        <div class="day">T</div>
-        <div class="day">W</div>
-        <div class="day">T</div>
-        <div class="day govt">F</div>
-        <div class="day govt">S</div>
-
+    <h1> September , 2004 <small>(My Birthday Month) </small></h1>
+      <div class="calendar">
+        <div class="day">MON</div>
+        <div class="day">TUE</div>
+        <div class="day">WED</div>
+        <div class="day">THU</div>
+        <div class="day off">FRI</div>
+        <div class="day off">SAT</div>
+        <div class="day">SUN</div>
+        <div class="date">30</div>
+        <div class="date">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date off">3</div>
+        <div class="date off">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date off">10</div>
+        <div class="date off">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date birth">15</div>
+        <div class="date">16</div>
+        <div class="date off">17</div>
+        <div class="date off">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date off">24</div>
+        <div class="date off">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
         <div class="date">29</div>
-     <div class="date">30</div>
-     <div class="date">31</div> 
-     <div class="date">1</div>
-     <div class="date">2</div>
-     <div class="date">3</div>
-     <div class="date">4</div>
-     <div class="date">5</div>
-     <div class="date">6</div>
-     <div class="date">7</div>
-     <div class="date">8</div>
-     <div class="date">9</div>
-     <div class="date">10</div>
-     <div class="date">11</div>
-     <div class="date">12</div>
-     <div class="date">13</div>
-     <div class="date">14</div>
-     <div class="date">15</div>
-     <div class="date">16</div>
-     <div class="date">17</div>
-     <div class="date">18</div>
-     <div class="date">19</div>
-     <div class="date">20</div>
-     <div class="date">21</div>
-     <div class="date">22</div>
-     <div class="date">23</div>
-     <div class="date">24</div>
-     <div class="date">25</div>
-     <div class="date">26</div>
-     <div class="date">27</div>
-     <div class="date">28</div>
-     <div class="date">29</div>
-     <div class="date">30</div>
-     <div class="date">1</div>
-     <div class="date">2</div>
-     
-    </div>
+        <div class="date">30</div>
+        <div class="date off">1</div>
+        <div class="date off">2</div>
+        <div class="date">3</div>
+         <small>S@bikun-nhr</small>
+      </div>
+      
+      <h5>15 september-My Birthday </h5>
+    
 </body>
 </html>
