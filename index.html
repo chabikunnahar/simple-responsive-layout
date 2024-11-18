@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 2em;
+        }
+    
+           .manu a{ 
+            margin-right: 50px;
+           }
+        nav button{
+            width:100px;
+            border: none;
+            border-radius: 6px;
+            padding:10px;
+            background-color:orangered;
+        }
+        .login-form-container{
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border:1px solid red; */
+        }
+        .login-form{
+        /* border: 1px solid; */
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        /* justify-content: center; */
+        }
+        .login-form h3{
+            text-align: center;
+            font-size:2rem;
+            text-decoration: underline;
+        }
+        .login-form input{
+            margin-bottom: 20px;
+            height:30px;
+            border-radius: 5px;
+            padding-left: 20px;
+        }
+        .login-form input[type="submit"]{
+            color: azure;
+            background-color: blue;
+            font-size: 1rem;
+            /* height: 30px; */
+        }
+        .container{
+            display: grid;
+            /* grid-template-columns: 200px auto 200px; */
+            grid-template-columns: repeat(4 ,1fr);
+            gap: 20px;
+        }
+         h2{
+            text-align: center;
+        }
+        .item{
+            border: 1px solid aquamarine;
+            text-align: center;
+            /* width: 200px; */
+            height: 100px;
+        }
+        .box-container{
+            border: 2px solid blue;
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* height:400px; */
+            flex-wrap: wrap;
+
+        }
+        .box{
+            border:2px dotted tomato;
+            width:50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        
+      <div class="manu">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+      </div>
+     <button> <a href="">Login
+    </a></button>
+         </nav>
+    <section class=" login-form-container">
+        <form class="login-form">
+            <h3>Login Form</h3>
+            <input type="text" name="" id="" placeholder="Your Name" required>
+            <input type="email" name="" id="" placeholder="Your Email" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+
+    <section class="grid">
+        <h2>Grid Layout:2D</h2>
+        <div class="container">
+            
+            <div class="item">item-1</div>
+            <div class="item">item-2</div>
+            <div class="item">item-3</div>
+            <div class="item">item-4</div>
+            <div class="item">item-5</div>
+            <div class="item">item-6</div>
+            <div class="item">item-7</div>
+            <div class="item">item-8</div>
+            <div class="item">item-9</div>
+            <div class="item">item-10</div>
+            <div class="item">item-11</div>
+            <div class="item">item-12</div>
+            <div class="item">item-13</div>
+            <div class="item">item-14</div>
+            <div class="item">item-15</div>
+            <div class="item">item-16</div>
+            <div class="item">item-17</div>
+            <div class="item">item-18</div>
+            <div class="item">item-19</div>
+            <div class="item">item-20</div>
+        </div>
+
+    </section>
+    <h1>Flexbox layout</h1>
+    <div class="box-container">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box-5</div>
+        <div class="box">Box-6</div>
+        <div class="box">Box-7</div>
+        <div class="box">Box-8</div>
+        <div class="box">Box-9</div>
+        <div class="box">Box-10</div>
+        <div class="box">Box-11</div>
+        <div class="box">Box-12</div>
+        <div class="box">Box-13</div>
+        <div class="box">Box-14</div>
+        <div class="box">Box-15</div>
+    </div>
+</body>
+</html>
